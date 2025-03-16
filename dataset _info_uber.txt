@@ -27,4 +27,4 @@ Expanding the model to multiple cities for broader application.
 Tech Stack
 Python: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 Machine Learning: Linear Regression, Decision Tree, Random Forest, Gradient Boosting, MLP
-Feature Selection: RFECV for improved model efficiency
+
