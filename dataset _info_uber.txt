@@ -1,2 +1,30 @@
 dataset link
 https://www.kaggle.com/datasets/ravi72munde/uber-lyft-cab-prices
+
+Overview
+
+This project explores Uber ride pricing using machine learning models to predict fare fluctuations based on key influencing factors. The dataset, sourced from New York City Uber rides, was analyzed to determine how variables such as distance, cab type, and weather conditions impact pricing. The goal is to build an efficient predictive model that not only forecasts prices but also identifies the primary contributors to price deviations.
+
+Key Features
+
+Data Preprocessing: Handling missing values, encoding categorical data, and filtering Uber ride records.
+Exploratory Data Analysis (EDA): Conducting univariate, bivariate, and multivariate analysis to extract insights.
+Feature Engineering: Implementing Recursive Feature Elimination with Cross-Validation (RFECV) to optimize feature selection.
+Machine Learning Models: Testing Linear Regression, Decision Tree, Random Forest, Gradient Boosting, and MLP for price prediction.
+Deviation Analysis: Identifying the features responsible for price variations from expected fares.
+
+Results
+
+Gradient Boosting achieved the highest R² score (0.948), making it the best-performing model.
+Distance and cab type were identified as the strongest predictors of ride prices.
+Weather conditions and time of day contributed to fare fluctuations, but with lesser impact.
+
+Future Scope
+Integrating real-time ride pricing to improve prediction accuracy.
+Applying deep learning techniques for enhanced feature extraction.
+Expanding the model to multiple cities for broader application.
+
+Tech Stack
+Python: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+Machine Learning: Linear Regression, Decision Tree, Random Forest, Gradient Boosting, MLP
+Feature Selection: RFECV for improved model efficiency
